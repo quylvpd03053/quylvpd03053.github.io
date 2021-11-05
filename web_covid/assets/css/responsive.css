@@ -1,0 +1,120 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet and mobile */
+@media (max-width: 1023px){
+    .btn {
+        padding: 1.4rem;
+        width: 80%;
+    }
+
+    #header .menu-icon i {
+        display: block;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    /* home */
+    .home-section {
+        flex-direction: column;
+    }
+
+    .home-content {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .home-content p {
+        text-align: center;
+    }
+
+    /* protect */
+    .list-protect {
+        flex-direction: column;
+        padding: 0 15%;
+    }
+    .item-protect {
+        padding: 4rem 2rem;
+    }
+    .item-protect .protect-desc {
+        width: 100%;
+    }
+    
+    /* symptoms */
+    .symptoms-section {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .symptoms-content {
+        padding: 20px 0;
+    }
+
+    .btn-m-s {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .symptoms-img {
+        padding: 20px 0;
+    }
+
+    /* footer */
+    .social-icon a {
+        font-size: 2.5rem;
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    html {
+        font-size: 55%;
+    }
+
+    #header{
+        padding: 22px 7%;
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    html {
+        font-size: 50%;
+    }
+
+    #header{
+        padding: 20px 7%;
+    }
+    .home-section {
+        padding: 80px 3%;
+    }
+    .home-content h3 {
+        font-size: 4.6rem;
+    }
+
+    .content-section {
+        padding: 9rem 3%;
+    }
+
+    /* prevent */
+    .prevent-section {
+        flex-direction: column;
+    }
+
+    .prevent-section-s {
+        flex-direction: column-reverse;
+    }
+
+    /* footer */
+    #footer {
+        padding: 0 3%;
+    }
+}
